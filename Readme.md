@@ -1,6 +1,6 @@
 # Task Tracker CLI Tool
 
-![Task Tracker](.task_tracker/1.PNG)
+![Task Tracker](https://github.com/fahamidur/Task-Tracker/blob/main/task_tracker/1.PNG)
 
 ## Description
 
