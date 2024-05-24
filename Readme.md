@@ -1,6 +1,6 @@
 # Task Tracker CLI Tool
 
-![Task Tracker](.images/1.PNG)
+![Task Tracker](.task_tracker/1.PNG)
 
 ## Description
 
