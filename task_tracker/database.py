@@ -45,3 +45,11 @@ class TaskDatabase:
             self.conn.execute('''
                 UPDATE tasks SET title = ?, description = ?, start_date = ?, deadline = ?, status = ?, priority = ?, payment = ?
                 WHERE id = ?''', (title, description, start_date, deadline, status, priority, payment, task_id))
+
+    def get_task_by_id(self, task_id):
+        with self.conn:
+            cursor = self.conn.cursor()
+            cursor.execute("SELECT * FROM tasks WHERE id = ?", (task_id,))
+            task = cursor.fetchone()
+            return task if task else None
+
