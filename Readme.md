@@ -1,7 +1,6 @@
-```markdown
 # Task Tracker CLI Tool
 
-![Task Tracker](https://yourdomain.com/path/to/your/image.png)
+![Task Tracker](.images/1.PNG)
 
 ## Description
 
